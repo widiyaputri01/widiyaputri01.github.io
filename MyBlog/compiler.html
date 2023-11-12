@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Compiler, Interpreter, Linker</title>
+	<link rel="stylesheet" href="style.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+	<!--Header-->
+	<header>
+		<div class="nav container">
+				<a href="index.html" class="logo">My<span>Blog</span></a>
+		</div>
+	</header>
+	<!--Post content-->
+	<section class="post-header">
+        <div class="header-content post-container">
+            <a href="index.html" class="back-home">Back To Home</a>
+            <h1 class="header-title">Compiler, Interpreter, Linker</h1>
+            <img src="img/img14.jpg" alt="" class="header-img">
+        </div>
+    </section>
+
+	<!--Post-->
+	<section class="post-content post-container">
+		<h2 class="sub-heading">Compiler, Interpreter, Linker</h2>
+        <h3 class="sub1-heading">TRANSLATOR</h3>
+        <p class="post-text">
+            <b>Translator</b><br> Dalam konteks bahasa pemrograman, "translator" biasanya merujuk
+            kepada program atau perangkat lunak yang mengubah kode sumber
+            dari satu bahasa pemrograman ke bahasa pemrograman lain. Ini
+            biasanya dilakukan untuk beberapa tujuan seperti portabilitas,
+            optimisasi, atau integrasi.<br>
+            Ada 2 jenis translator utama pada bahasa pemrograman, yaitu Compiler dan Interpreter.
+        </p>
+        <h3 class="sub1-heading">COMPILER</h3>
+        <p class="post-text">
+            •Compiler adalah jenis translator yang menerjemahkan seluruh kode sumber dalam
+            satu kali proses ke dalam bahasa mesin atau kode antara (intermediate code).<br>
+            •Compiler menghasilkan file biner atau kode antara yang dapat dieksekusi secara
+            langsung oleh komputer.<br>
+            •Contoh bahasa yang menggunakan compiler adalah C, C++, dan Ada.<br><br>
+        </p>
+        <h3 class="sub1-heading">INTERPRETER</h3>
+        <p class="post-text">
+            •Interpreter adalah jenis translator yang membaca dan mengeksekusi
+            kode sumber baris demi baris saat program berjalan. Ini berarti kode
+            sumber tidak diterjemahkan ke dalam bahasa mesin atau kode
+            antara sebelum dieksekusi.<br>
+            •Contoh bahasa yang menggunakan interpreter adalah Python,
+            JavaScript, dan Ruby.<br><br>
+        </p>
+        <h3 class="sub1-heading">COMPILER VS INTERPRETER</h3>
+        <p class="post-text">
+            <b>Compiler</b><br>
+            •Siap dijalankan<br>
+            •Lebih cepat<br>
+            •Source Tidak Terlihat.<br>
+            •Tidak lintas platform<br>
+            •Tidak fleksibel<br>
+            •Langkah tambahan<br><br>
+            <b>Interpreter</b><br>
+            •Butuh interpreter<br>
+            •Lebih lambat<br>
+            •Source terlihat<br>
+            •Lintas Platform<br>
+            •Fleksibel<br>
+            •Mudah diuji
+        </p>
+        <h3 class="sub1-heading">LINKER</h3>
+        <p class="post-text">
+            •Tugas dari linker adalah menggabungkan berbagai library
+            external dengan object file untuk menghasilkan sebuah
+            program.<br>
+            •Kode program C biasanya butuh file library external. Sebagai
+            contoh, untuk menampilkan teks ke layar dalam bahasa C
+            perintahnya adalah printf(“Hello World”). Untuk bisa
+            memproses perintah printf(), C butuh sebuah file external,
+            yakni stdio.h.<br>
+            •Linker-lah yang akan
+            menggabungkan hello_world.obj dengan stdio.h. Hasil
+            akhirnya berupa sebuah program berextension *.exe. Karena
+            file source code saya buat sebagai hello_world.c, file
+            programnya akan bernama hello_world.exe. Dengan men-
+            double-klik file hello_world.exe, program kita sudah langsung
+            berjalan.<br><br>
+        </p>
+	</section>
+
+	<div class="footer container">
+		<p>&copy 23161562030 by Widiya Putri Rosmadi</p>
+	</div>
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+	<script src="main.js"></script>
+</body>
+</html>
